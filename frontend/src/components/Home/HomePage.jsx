@@ -60,7 +60,7 @@ const HeroSection = () => {
           </div>
 
           {/* CTA Button */}
-          <Link to="/register">
+          <Link to="/profile">
             <button className="mt-10 px-8 py-3 bg-gradient-to-r from-pink-500 to-red-500 hover:from-red-500 hover:to-pink-500 rounded-full text-white font-bold shadow-lg transform transition hover:scale-105">
               Get Started
             </button>
@@ -71,7 +71,7 @@ const HeroSection = () => {
       {/* How It Works Section */}
       <section className="py-20 px-6 bg-gray-50">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-12">
-          How It Works
+          How It Operates
         </h2>
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {processSteps.map((step, idx) => (
